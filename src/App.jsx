@@ -1,0 +1,44 @@
+
+import { useState } from "react";
+
+import Reloj from "./components/Reloj.jsx";
+import ClicksYRenders from "./components/ClicksYRenders.jsx";
+import Ficha from "./components/Ficha.jsx";
+import ContadorDeVisitas from "./components/ContadorDeVisitas.jsx";
+import ContadorDeCafes from "./components/ContadorDeCafes.jsx";
+
+export default function App() {
+  const [mostrarReloj, setMostrarReloj] = useState(true);
+
+  return (
+    <div>
+      <h1>Clase 11 - Hooks de React</h1>
+
+      <h2>Ejercicio 1 - Reloj</h2>
+
+      <button onClick={() => setMostrarReloj(!mostrarReloj)}>
+        {mostrarReloj ? "Ocultar reloj" : "Mostrar reloj"}
+      </button>
+
+      {mostrarReloj && <Reloj />}
+
+      <hr />
+
+      <h2>Ejercicio 2 - Clicks y renders</h2>
+      <ClicksYRenders />
+
+      <hr />
+
+      <h2>Ejercicio 3 - Fichas favoritas</h2>
+      <Ficha nombre="Camila" rol="Estudiante" />
+      <Ficha nombre="Alex" rol="Diseñador" />
+
+      <hr />
+
+      <h2>Ejercicio 4 - Hooks personalizados</h2>
+      <ContadorDeVisitas />
+      <ContadorDeCafes />
+    </div>
+  );
+}
+
