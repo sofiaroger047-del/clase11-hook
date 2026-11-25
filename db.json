@@ -1,0 +1,40 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "texto": "Estudiar fetch",
+      "hecha": false
+    },
+    {
+      "id": "2",
+      "texto": "Comprar yerba",
+      "hecha": true
+    },
+    {
+      "texto": "Hacer la tarea de Programación Web",
+      "hecha": true,
+      "id": "zk4glhDn7L4"
+    },
+    {
+      "texto": "Repasar para el examen de Programación Web",
+      "hecha": false,
+      "id": "3a1KvHeZeus"
+    },
+    {
+      "texto": "Estudiar JavaScript",
+      "hecha": false,
+      "id": "DD-mmx1vSN4"
+    },
+    {
+      "texto": "Terminar el Anexo II",
+      "hecha": false,
+      "id": "6yLld_pD9_E"
+    },
+    {
+      "texto": "Prueba",
+      "hecha": false,
+      "id": "PHdd3W3oon8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

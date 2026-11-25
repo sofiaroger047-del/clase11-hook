@@ -8,6 +8,8 @@ import ContadorDeVisitas from "./components/ContadorDeVisitas.jsx";
 import ContadorDeCafes from "./components/ContadorDeCafes.jsx";
 import PerfilGitHub from "./components/PerfilGitHub.jsx";
 import BuscadorPokemon from "./components/BuscadorPokemon.jsx";
+import ListaTareasA from "./components/ListaTareasA.jsx";
+import ListaTareasB from "./components/ListaTareasB.jsx";
 
 export default function App() {
   const [mostrarReloj, setMostrarReloj] = useState(true);
@@ -49,8 +51,17 @@ export default function App() {
       <hr />
 
       <h2>Fetching Data - Ejercicio 3</h2>
-
       <BuscadorPokemon/>
+
+      <hr />
+
+      <h2>Anexo II - Ejercicio 3</h2>
+      <ListaTareasA/>
+
+      <hr />
+
+      <h2>Anexo II - Ejercicio 4</h2>
+      <ListaTareasB/>
 
     </div>
   );
