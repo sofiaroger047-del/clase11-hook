@@ -6,6 +6,8 @@ import ClicksYRenders from "./components/ClicksYRenders.jsx";
 import Ficha from "./components/Ficha.jsx";
 import ContadorDeVisitas from "./components/ContadorDeVisitas.jsx";
 import ContadorDeCafes from "./components/ContadorDeCafes.jsx";
+import PerfilGitHub from "./components/PerfilGitHub.jsx";
+import BuscadorPokemon from "./components/BuscadorPokemon.jsx";
 
 export default function App() {
   const [mostrarReloj, setMostrarReloj] = useState(true);
@@ -38,6 +40,18 @@ export default function App() {
       <h2>Ejercicio 4 - Hooks personalizados</h2>
       <ContadorDeVisitas />
       <ContadorDeCafes />
+
+      <hr />
+
+      <h2>Fetching Data - Ejercicio 2</h2>
+      <PerfilGitHub usuario="sofiaroger047-del" />
+
+      <hr />
+
+      <h2>Fetching Data - Ejercicio 3</h2>
+
+      <BuscadorPokemon/>
+
     </div>
   );
 }
